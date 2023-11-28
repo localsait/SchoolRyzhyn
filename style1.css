@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background:linear-gradient(45deg, green, yellowgreen);
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #B0C4DE;
+  color: black;
+}
+
+.active {
+  background-color:linear-gradient(45deg, green, yellowgreen);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.vertical-menu a {
+    background:linear-gradient(45deg, green, yellowgreen);
+    border: 1px solid yellowgreen;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    width: 15%;
+    display: block;
+    text-decoration: none;
+    text-shadow: none;
+}
+.vertical-menu a:not(:last-child) {
+    border-bottom: none;
+}
+.vertical-menu a:hover {
+    background-color: #FFBF00;
+    color: #FF4F00;
+}
+.banner{
+    border: 1px solid black;
+    height: 1200px;
+    width: 19%;
+    margin-top: 7%;
+    margin-left: 1%;
+}
+.banner img {
+    margin-left: 33%;
+    margin-top: 31%;
+}
+#bantop{
+    width: 106%;
+    margin-left: -6%;
+    height: 300px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+  margin-top: 8%;
+  height: 100px;
+  background:linear-gradient(45deg, green, yellowgreen);
+}
+.footer i{
+    color: #DCDCDC;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 30px;
+}
+.footer p{
+    color: white;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+#lic{
+  margin-top: -2%;
+}
+#copy{
+    margin-top: -1%;
+}
+#adress{
+    color: white;
+    margin-left: 43%;
+    margin-top: -4.8%;
+}
+#adressa{
+    color: white;
+    margin-left: 43.1%;
+    margin-top: -1%;
+}
+#site{
+    margin-left: 74%;
+    margin-top: -4.8%;
+}
+#mno{
+    color: white;
+    margin-left: 74%;
+    margin-top: -1%;
+}
+#facebook{
+    color: #000080;
+}
+#twitter{
+    color: #00acee;
+}
+#youtube{
+    color: #c4302b;
+}
+h1{
+    margin-top: -62%;
+    margin-left: 27%;
+    color: white;
+    font-family: Merriweather;
+    text-shadow: green 2px 0px 2px,green 0px 2px 2px,green 0px -2px 2px,green -2px 0px 2px;
+}
+h2{
+   color: white;
+   font-family: Merriweather;
+   text-shadow: green 2px 0px 2px,green 0px 2px 2px,green 0px -2px 2px,green -2px 0px 2px;
+}
+.istory{
+  margin-left: 24%;
+  width: 73%;
+  margin-top: 2%;
+}
+#history{
+  color:  #32CD32;
+  border-bottom: 1px solid black;
+  width: 40%;
+}
+.osvita{
+  width: 70%;
+  margin-left: 22%;
+  margin-top: -140%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+.progress-bar {
+  height: 8px;
+  background: #2F4F4F;
+  width: 0%;
+}
+.pdf{
+  margin-top: -2%;
+}
+.pdf a{
+  text-decoration: none;
+}
+.pdf a:hover{
+  text-decoration: underline;
+}
+.fail{
+  margin-left: 24%;
+  margin-top: -38%;
+  font-size: 40px;
+  color: #32CD32;
+}
+#map{
+  margin-left: 25%;
+  margin-top: -700px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=Submit] {
+    background-color: #4682B4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=Submit]:hover {
+    background-color: #1E90FF; 
+    text-shadow: #1E90FF 2px 0px 2px,#1E90FF 0px 2px 2px,#1E90FF 0px -2px 2px,#1E90FF -2px 0px 2px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 42%;
+    margin-left: 54%;
+    margin-top: -137%;
+}
+iframe{
+  margin-left: 22%;
+  margin-top: -70%;
+}
+#contactu{
+  font-size: 40px;
+  color: #32CD32;
+  margin-left: 23%;
+  margin-top: -47%;
+}
+.stata{
+  margin-left: 23%;
+  color: #1E90FF;
+}
