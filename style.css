@@ -65,6 +65,7 @@ body {
     display: block;
     text-decoration: none;
     text-shadow: none;
+    box-shadow: 10px 20px 20px 10px #D3D3D3;
 }
 .vertical-menu a:not(:last-child) {
     border-bottom: none;
@@ -214,6 +215,7 @@ body {
     width: 35%;
     margin-top: 31%;
     margin-left: -47%;
+    box-shadow: 10px 20px 20px 10px #D3D3D3;
 }
 .banner img {
     margin-left: 34%;
